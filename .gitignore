@@ -1,0 +1,26 @@
+# Ignore Rust build artifacts for all projects
+target/
+**/*.rs.bk
+
+# Build output
+*.rs.bk
+*.dll
+*.dylib
+*.so
+
+# Cargo lock file (for dependencies, optional)
+Cargo.lock
+
+# Rust's build cache (if applicable)
+cargo-cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
